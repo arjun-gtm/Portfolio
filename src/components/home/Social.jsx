@@ -1,20 +1,20 @@
 import React from "react";
-import { FiTwitter, FiGithub, FiLinkedin} from "react-icons/fi";
+import { FiTwitter, FiGithub, FiLinkedin, FiInstagram, FiFacebook } from 'react-icons/fi';
 
 const Social = () => {
     return (
         <div className="home__social">
-            <a href="https://twitter.com/cyphrsylph" className="home__social-icon" target="_blank">
-                <FiTwitter />
+            <a href="https://www.facebook.com/arjun.gautam30/" className="home__social-icon" target="_blank" rel="noreferrer">
+                <FiFacebook />
             </a>
-            <a href="https://www.github.com/kmaalig" className="home__social-icon" target="_blank">
+            <a href="https://instagram.com/arjun.gtm/" className="home__social-icon" target="_blank" rel="noreferrer">
+                <FiInstagram />
+            </a>
+            <a href="https://www.github.com/arjun-gtm/" className="home__social-icon" target="_blank" rel="noreferrer">
                 <FiGithub />
             </a>
-            <a href="https://www.linkedin.com/in/kmaalig/" className="home__social-icon" target="_blank">
-                <FiLinkedin />
-            </a>
-        </div> 
-    ); 
+        </div>
+    );
 }
 
 export default Social;

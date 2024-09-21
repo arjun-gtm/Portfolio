@@ -1,6 +1,6 @@
 import React from 'react';
 import "./about.css";
-import AboutImg from "../../assets/aboutBW.jpeg";
+import AboutImg from "../../assets/aboutBW.jpg";
 import CV from "../../assets/Example-Cv.pdf";
 import Info from "./Info";
 
@@ -14,7 +14,7 @@ const About = () => {
             <div className="about__data">
                 <Info />
                 <p className="about__description">
-                    I create applications highlighting minimal design and friendly UI/UX interfaces.
+                    I create web applications highlighting minimal design and friendly UI/UX interfaces.
                 </p>
                 <a download="" href={CV} className="button button--flex">
                     Download CV
