@@ -29,7 +29,7 @@ const Contact = () => {
                         <h3 className="contact__card-title">Email</h3>
                         <span className="contact__card-data">contact@arjungtm.com.np</span>
                         
-                        <a href="mailto:cyphersylph@gmail.com" className="contact__button">
+                        <a href="mailto:contact@arjungtm.com.np" className="contact__button">
                             Reach Me{" "} 
                             <HiOutlineArrowSmRight className="contact__button-icon" />
                         </a>
